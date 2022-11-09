@@ -1,0 +1,535 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMpqmTIl+hFQ641YAU+J69d",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AreejAka/ShoowcaseWed/blob/main/Getting_started_sat.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **GETTING STARTED**"
+      ],
+      "metadata": {
+        "id": "bq1Sz1w7J9W-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9X2MClsJHxIY",
+        "outputId": "50c340b2-a800-41bd-96f3-df066ae7f8b2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "633\n"
+          ]
+        }
+      ],
+      "source": [
+        "x=4\n",
+        "y=4\n",
+        "print (2*x+5**y)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"Hello World!\") #this is a string"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tuTBmYkdNtUZ",
+        "outputId": "f0be8feb-4775-4c55-b825-6526f3e253eb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n"
+      ],
+      "metadata": {
+        "id": "yBO3mq7dNdl1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "3**10"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9R3nOekCPdrz",
+        "outputId": "80ec6296-0f12-4d17-f485-66bb78a1223f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "59049"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(True)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mqt3h4ucQXsO",
+        "outputId": "a3c29153-fe34-4812-ff90-e645dc1a3416"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "bool"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=4.25\n",
+        "type (n)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k-Hw9xJ3YjFa",
+        "outputId": "897b170b-7936-4817-db0b-1a2e99e529dc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "j=-25\n",
+        "type (j)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A46qUrebYqwn",
+        "outputId": "5ecb9983-f99e-4375-de06-d396ad0635e8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "type(\"Hello\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1QHD9sqDY0Ho",
+        "outputId": "97531a1f-8a3d-4b00-8c84-3cd93a98966f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jj=[\"apple\",\"cherry\",\"banana\"]\n",
+        "type(jj)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u-U2ZhieZHAC",
+        "outputId": "0a9812e8-5017-400c-b8ca-1dd60ffd5c47"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "list"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 16
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jj[2]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dGNa9RT1hXbx",
+        "outputId": "3e7c4edc-5525-47ec-8b67-65f0f22c8047"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 29
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jj[0]=\"Hello\"\n",
+        "print(jj)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9X7GzgUAZZy3",
+        "outputId": "81f1b485-eadf-44a0-f36e-98258a9beae7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Hello', 2, 4]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "school ={\"student\":\"Mary\", \"grade\":80}\n",
+        "school.update({\"course\":\"Python\"})\n",
+        "print(school [\"course\"])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AJKKKd3ua5OQ",
+        "outputId": "e9418cab-8d46-4708-a759-78f9793d41dc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "gdWIkfFLeoD7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "colours = {\"blue\", \"green\", \"yellow\"}\n",
+        "type(colours)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p95BBEDSe5kB",
+        "outputId": "1f4ca991-8118-49b3-bb24-630e98fe5dce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "set"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 23
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "8G6kOTTSfVAz"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruits = {\"apple\", \"mango\", \"cherry\"}\n",
+        "type(fruits)\n",
+        "fruits.add(\"Banana\")\n",
+        "print(fruits)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NMdPSBATdNwJ",
+        "outputId": "dd88ec32-f8c6-4eeb-e4a7-33a5c8aaa6d4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Banana', 'apple', 'cherry', 'mango'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "Ah5nIeZKdkja"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(fruits)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TTJywV0HhwDJ",
+        "outputId": "0e8be43f-56e6-4994-9b20-c6d07e86ea98"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Banana', 'apple', 'cherry', 'mango'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tuple1=(\"apple\", \"cherry\", \"orange\", \"cherry\")\n",
+        "type(tuple1)\n",
+        "tuple1[0]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "aUKofO0uh109",
+        "outputId": "cf63a1df-0d24-4baa-a5f3-8e9f529c8f98"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'apple'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 37
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "country_name = \"United Kingdom\"\n",
+        "city_name = \"London\"\n",
+        "print(country_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "t36uz26XkYLQ",
+        "outputId": "3d7a37fd-41f2-48bc-a442-f5c6b82b35fb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "United Kingdom\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(city_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MQ4xKZGokzdB",
+        "outputId": "4f456d8e-6ed8-4904-9eb3-a2384e5c36f5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "London\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "len(country_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4YiiQGgdk9IZ",
+        "outputId": "11b1b585-d0f7-44cd-8fc9-3d4efa20a474"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "14"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 41
+        }
+      ]
+    }
+  ]
+}
